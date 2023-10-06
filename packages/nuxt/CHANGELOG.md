@@ -1,5 +1,47 @@
 # Changelog
 
+## [0.13.0](https://github.com/asika32764/bootstrap-vue-next/compare/nuxt-v0.14.8...nuxt-v0.13.0) (2023-10-06)
+
+
+### ⚠ BREAKING CHANGES
+
+* release for 0.11.0
+
+### Features
+
+* BOffcanvas & BModal body scrolling prevented ([af0a97d](https://github.com/asika32764/bootstrap-vue-next/commit/af0a97df8a2a4b44bd0364de6e262db5b1809d3d))
+* **BToast:** I did not eat today and I I have been working for 12 hours straight on this. Enjoy donate at https://opencollective.com/bootstrap-vue-next ([a393473](https://github.com/asika32764/bootstrap-vue-next/commit/a393473373337e29914d93ace838587e2d829a55))
+* **nuxt:** automatically transform asset urls for vite fixes [#1470](https://github.com/asika32764/bootstrap-vue-next/issues/1470)  ([#1478](https://github.com/asika32764/bootstrap-vue-next/issues/1478)) ([3b61ee1](https://github.com/asika32764/bootstrap-vue-next/commit/3b61ee181313a5fb0897b36a89fdb1fed456ef41))
+* release for 0.11.0 ([5be4a7e](https://github.com/asika32764/bootstrap-vue-next/commit/5be4a7e942f94212ae86c364678bcc65977db7a7))
+
+
+### Bug Fixes
+
+* **BFormFile:** ModelValue not synced up when using reset ([af0a97d](https://github.com/asika32764/bootstrap-vue-next/commit/af0a97df8a2a4b44bd0364de6e262db5b1809d3d))
+* **BFormFile:** unnecessary wrapper element ([af0a97d](https://github.com/asika32764/bootstrap-vue-next/commit/af0a97df8a2a4b44bd0364de6e262db5b1809d3d))
+* defineSlot issues ([bb72530](https://github.com/asika32764/bootstrap-vue-next/commit/bb725308fe5805f3a78318613d538171a9d3ee29))
+* import interface from other vue file ([bb72530](https://github.com/asika32764/bootstrap-vue-next/commit/bb725308fe5805f3a78318613d538171a9d3ee29))
+* no-dupe-keys issues ([bb72530](https://github.com/asika32764/bootstrap-vue-next/commit/bb725308fe5805f3a78318613d538171a9d3ee29))
+* readonly some refs ([af0a97d](https://github.com/asika32764/bootstrap-vue-next/commit/af0a97df8a2a4b44bd0364de6e262db5b1809d3d))
+* release 0.1.5 ([0b6efe5](https://github.com/asika32764/bootstrap-vue-next/commit/0b6efe59a14bf460e5bfda8c02e605d26da8890f))
+* scss ([02750f5](https://github.com/asika32764/bootstrap-vue-next/commit/02750f5e5c2d93d3486a5cdaa363763a6a18c239))
+* types generation ([9537680](https://github.com/asika32764/bootstrap-vue-next/commit/953768011c1f49a560c878babcf400ef765b8190))
+
+
+### Miscellaneous Chores
+
+* release ([18278f7](https://github.com/asika32764/bootstrap-vue-next/commit/18278f7912f4142786204633d35c94c531dd6784))
+* release 0.13.0 ([77dfebc](https://github.com/asika32764/bootstrap-vue-next/commit/77dfebc30d9a3f6f9f990f6128e8405368ffb16a))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * bootstrap-vue-next bumped to 0.13.0
+  * peerDependencies
+    * bootstrap-vue-next bumped to 0.13.0
+
 ## [0.14.8](https://github.com/bootstrap-vue-next/bootstrap-vue-next/compare/nuxt-v0.14.7...nuxt-v0.14.8) (2023-10-04)
 
 
