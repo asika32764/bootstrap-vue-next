@@ -1,4 +1,3 @@
-export interface BModalController {
-  hide: (trigger?: string) => void
-  hideAll: (trigger?: string) => void
-}
+import useModalController from '../composables/useModalController'
+
+export type BModalController = ReturnType<typeof useModalController>

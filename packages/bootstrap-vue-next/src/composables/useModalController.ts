@@ -1,7 +1,8 @@
-import type {BModalController} from '../types'
+import {toRef} from 'vue'
+import type {BModalExposedProxy} from './useModal'
 import {useSharedModalStack} from './useModalManager'
 
-export default (): BModalController => {
+export default () => {
   const {last, stack} = useSharedModalStack()
 
   const hide = (trigger = '') => {
@@ -18,9 +19,12 @@ export default (): BModalController => {
     }
   }
 
+  const getTop = () => toRef(() => last.value?.exposeProxy as BModalExposedProxy)
+
   return {
     hide,
     hideAll,
+    getTop,
 
     // Todo: Supports listening events globally in the future
   }
